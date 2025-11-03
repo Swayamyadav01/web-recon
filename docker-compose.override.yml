@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    command: ["python", "run.py"]
+    # Or for debugging:
+    # command: ["tail", "-f", "/dev/null"]
+    # Then exec into container: docker-compose exec web bash
